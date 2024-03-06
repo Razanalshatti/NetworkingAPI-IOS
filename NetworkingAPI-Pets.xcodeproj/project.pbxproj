@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55FC1AB2B972B48008B24C4 /* AddPetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FC1AA2B972B48008B24C4 /* AddPetDelegate.swift */; };
 		B5EBC1622B95BEC600E84DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1612B95BEC600E84DFA /* AppDelegate.swift */; };
 		B5EBC1642B95BEC600E84DFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1632B95BEC600E84DFA /* SceneDelegate.swift */; };
-		B5EBC1662B95BEC600E84DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1652B95BEC600E84DFA /* ViewController.swift */; };
+		B5EBC1662B95BEC600E84DFA /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1652B95BEC600E84DFA /* PetTableViewController.swift */; };
 		B5EBC1692B95BEC600E84DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EBC1672B95BEC600E84DFA /* Main.storyboard */; };
 		B5EBC16B2B95BEC700E84DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EBC16A2B95BEC700E84DFA /* Assets.xcassets */; };
 		B5EBC16E2B95BEC700E84DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EBC16C2B95BEC700E84DFA /* LaunchScreen.storyboard */; };
+		B5EBC1792B95BF0D00E84DFA /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1782B95BF0D00E84DFA /* Pet.swift */; };
+		B5EBC17C2B95BF3E00E84DFA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC17B2B95BF3E00E84DFA /* NetworkManager.swift */; };
+		B5EBC17F2B95BF7F00E84DFA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B5EBC17E2B95BF7F00E84DFA /* Alamofire */; };
+		B5EBC1812B95BF7F00E84DFA /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5EBC1802B95BF7F00E84DFA /* AlamofireDynamic */; };
+		B5EBC1832B95C63800E84DFA /* DetailPetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1822B95C63800E84DFA /* DetailPetController.swift */; };
+		B5EBC1862B95C98B00E84DFA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5EBC1852B95C98B00E84DFA /* SnapKit */; };
+		B5EBC1882B95C98B00E84DFA /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B5EBC1872B95C98B00E84DFA /* SnapKit-Dynamic */; };
+		B5EBC18B2B95D8E700E84DFA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B5EBC18A2B95D8E700E84DFA /* Kingfisher */; };
+		B5EBC18D2B95E6E400E84DFA /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC18C2B95E6E400E84DFA /* AppInfoViewController.swift */; };
+		B5EBC1942B95F36800E84DFA /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = B5EBC1932B95F36800E84DFA /* Eureka */; };
+		B5EBC1962B95F52800E84DFA /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC1952B95F52800E84DFA /* AddPetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B55FC1AA2B972B48008B24C4 /* AddPetDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetDelegate.swift; sourceTree = "<group>"; };
 		B5EBC15E2B95BEC600E84DFA /* NetworkingAPI-Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetworkingAPI-Pets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EBC1612B95BEC600E84DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5EBC1632B95BEC600E84DFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5EBC1652B95BEC600E84DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5EBC1652B95BEC600E84DFA /* PetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
 		B5EBC1682B95BEC600E84DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5EBC16A2B95BEC700E84DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EBC16D2B95BEC700E84DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5EBC16F2B95BEC700E84DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EBC1782B95BF0D00E84DFA /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		B5EBC17B2B95BF3E00E84DFA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B5EBC1822B95C63800E84DFA /* DetailPetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPetController.swift; sourceTree = "<group>"; };
+		B5EBC18C2B95E6E400E84DFA /* AppInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		B5EBC1952B95F52800E84DFA /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EBC1862B95C98B00E84DFA /* SnapKit in Frameworks */,
+				B5EBC17F2B95BF7F00E84DFA /* Alamofire in Frameworks */,
+				B5EBC1812B95BF7F00E84DFA /* AlamofireDynamic in Frameworks */,
+				B5EBC1882B95C98B00E84DFA /* SnapKit-Dynamic in Frameworks */,
+				B5EBC18B2B95D8E700E84DFA /* Kingfisher in Frameworks */,
+				B5EBC1942B95F36800E84DFA /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,53 @@
 		B5EBC1602B95BEC600E84DFA /* NetworkingAPI-Pets */ = {
 			isa = PBXGroup;
 			children = (
-				B5EBC1612B95BEC600E84DFA /* AppDelegate.swift */,
-				B5EBC1632B95BEC600E84DFA /* SceneDelegate.swift */,
-				B5EBC1652B95BEC600E84DFA /* ViewController.swift */,
+				B5EBC17A2B95BF1D00E84DFA /* Network */,
+				B5EBC1772B95BEF700E84DFA /* Model */,
+				B5EBC1762B95BEED00E84DFA /* VC */,
+				B5EBC1752B95BEDE00E84DFA /* Supporting */,
 				B5EBC1672B95BEC600E84DFA /* Main.storyboard */,
 				B5EBC16A2B95BEC700E84DFA /* Assets.xcassets */,
 				B5EBC16C2B95BEC700E84DFA /* LaunchScreen.storyboard */,
 				B5EBC16F2B95BEC700E84DFA /* Info.plist */,
+				B55FC1AA2B972B48008B24C4 /* AddPetDelegate.swift */,
 			);
 			path = "NetworkingAPI-Pets";
+			sourceTree = "<group>";
+		};
+		B5EBC1752B95BEDE00E84DFA /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBC1612B95BEC600E84DFA /* AppDelegate.swift */,
+				B5EBC1632B95BEC600E84DFA /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B5EBC1762B95BEED00E84DFA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBC1652B95BEC600E84DFA /* PetTableViewController.swift */,
+				B5EBC1822B95C63800E84DFA /* DetailPetController.swift */,
+				B5EBC18C2B95E6E400E84DFA /* AppInfoViewController.swift */,
+				B5EBC1952B95F52800E84DFA /* AddPetViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B5EBC1772B95BEF700E84DFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBC1782B95BF0D00E84DFA /* Pet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5EBC17A2B95BF1D00E84DFA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBC17B2B95BF3E00E84DFA /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,14 @@
 			dependencies = (
 			);
 			name = "NetworkingAPI-Pets";
+			packageProductDependencies = (
+				B5EBC17E2B95BF7F00E84DFA /* Alamofire */,
+				B5EBC1802B95BF7F00E84DFA /* AlamofireDynamic */,
+				B5EBC1852B95C98B00E84DFA /* SnapKit */,
+				B5EBC1872B95C98B00E84DFA /* SnapKit-Dynamic */,
+				B5EBC18A2B95D8E700E84DFA /* Kingfisher */,
+				B5EBC1932B95F36800E84DFA /* Eureka */,
+			);
 			productName = "NetworkingAPI-Pets";
 			productReference = B5EBC15E2B95BEC600E84DFA /* NetworkingAPI-Pets.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,12 @@
 				Base,
 			);
 			mainGroup = B5EBC1552B95BEC600E84DFA;
+			packageReferences = (
+				B5EBC17D2B95BF7F00E84DFA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B5EBC1842B95C98B00E84DFA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B5EBC1892B95D8E700E84DFA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B5EBC1922B95F36800E84DFA /* XCRemoteSwiftPackageReference "Eureka" */,
+			);
 			productRefGroup = B5EBC15F2B95BEC600E84DFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +214,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5EBC1662B95BEC600E84DFA /* ViewController.swift in Sources */,
+				B5EBC1662B95BEC600E84DFA /* PetTableViewController.swift in Sources */,
+				B5EBC1792B95BF0D00E84DFA /* Pet.swift in Sources */,
+				B5EBC17C2B95BF3E00E84DFA /* NetworkManager.swift in Sources */,
 				B5EBC1622B95BEC600E84DFA /* AppDelegate.swift in Sources */,
+				B55FC1AB2B972B48008B24C4 /* AddPetDelegate.swift in Sources */,
+				B5EBC18D2B95E6E400E84DFA /* AppInfoViewController.swift in Sources */,
+				B5EBC1832B95C63800E84DFA /* DetailPetController.swift in Sources */,
+				B5EBC1962B95F52800E84DFA /* AddPetViewController.swift in Sources */,
 				B5EBC1642B95BEC600E84DFA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +379,6 @@
 				INFOPLIST_FILE = "NetworkingAPI-Pets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +406,6 @@
 				INFOPLIST_FILE = "NetworkingAPI-Pets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +443,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5EBC17D2B95BF7F00E84DFA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		B5EBC1842B95C98B00E84DFA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		B5EBC1892B95D8E700E84DFA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		B5EBC1922B95F36800E84DFA /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5EBC17E2B95BF7F00E84DFA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EBC17D2B95BF7F00E84DFA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B5EBC1802B95BF7F00E84DFA /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EBC17D2B95BF7F00E84DFA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		B5EBC1852B95C98B00E84DFA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EBC1842B95C98B00E84DFA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B5EBC1872B95C98B00E84DFA /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EBC1842B95C98B00E84DFA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		B5EBC18A2B95D8E700E84DFA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EBC1892B95D8E700E84DFA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B5EBC1932B95F36800E84DFA /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EBC1922B95F36800E84DFA /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5EBC1562B95BEC600E84DFA /* Project object */;
 }

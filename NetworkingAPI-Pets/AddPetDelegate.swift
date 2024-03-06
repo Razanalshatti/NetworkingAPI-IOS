@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol AddPetDelegate: AnyObject {
+    func didAddPet()
+}

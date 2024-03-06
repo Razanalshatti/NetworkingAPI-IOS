@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+struct Pet: Codable{
+    var id: Int? = 0
+    var name: String
+    var adopted: Bool
+    var image: String
+    var age: Int
+    var gender: String
+
+}
+
